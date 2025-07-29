@@ -1,0 +1,491 @@
+        .main {
+            height: auto;
+            width: auto;
+        }
+
+        .bg {
+            height: 750px;
+            width: 1500px;
+            background-image: url(./beach.jpg);
+            background-repeat: no-repeat;
+            background-size: 100%;
+        }
+
+        .box {
+            height: 70px;
+            width: 1500px;
+            background-color: rgb(2, 2, 86);
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            font-size: 30px;
+        }
+
+        .lax {
+            gap: 20px;
+            display: flex;
+        }
+
+        .max {
+            gap: 20px;
+            display: flex;
+        }
+
+        .box2 {
+            height: 30px;
+            width: 100%;
+            background-color: rgb(150, 5, 5);
+            color: white;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            flex-direction: row;
+        }
+        .box3 {
+            height: 300px;
+            width: 100%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+        }
+
+        .box4 {
+            height: 750px;
+            width: 100%;
+            background-color: lightcyan;
+            /* position: absolute; */
+            display: flex;
+        }
+
+        .a1 {
+            background-color: lightcyan;
+        }
+
+        .subbox {
+            margin-top: 80px;
+            margin-left: 90px;
+            padding: 10px;
+        }
+        .subbox img {
+            height: 450px;
+            width: 450px;
+        }
+        .subbox1 {
+            display: flex;
+            flex-direction: column;
+            font-size: larger;
+            gap: 10px;
+            margin-top: 25px;
+            margin-left: 160px;
+            padding: 0px;
+        }
+        .a2 {
+            display: flex;
+            flex-direction: column;
+            background-color: lightcyan;
+        }
+
+        .subbox2 {
+            height: 300px;
+            width: 600px;
+            display: flex;
+            flex-direction: column;
+            margin-top: 80px;
+            margin-left: 150px;
+            font-size: 50px;
+        }
+
+        .subbox3 {
+            height: 300px;
+            width: 300px;
+            display: flex;
+            flex-direction: column;
+            margin-top: -130px;
+            margin-left: 200px;
+            gap: 5px;
+        }
+        .jxbox{
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            font-style: italic;
+            background-color: whitesmoke;
+        }
+
+         .box5{
+            height: 450px;
+            width: 100%;
+            background-color: whitesmoke;
+            display: flex;
+            justify-content: center;
+            gap: 20px;
+            border: 2px solid whitesmoke;
+        }
+        .lxbox{
+            height: 300px;
+            width: 300px;
+            display: flex;
+            flex-direction: column;
+            border: 2px solid whitesmoke;
+            
+        }
+        .hxbox{
+            height: 300px;
+            width: 300px;
+            display: flex;
+            justify-content: center;
+            border: 2px solid whitesmoke;
+            transform: 1s;
+        }
+        .hxbox:hover{
+            transform: scale(1.07);
+        }
+        .hxbox img{
+            height: 300px;
+            width: 300px;
+        }
+        .kxbox{
+            display: flex;
+             justify-content: space-around;
+            align-items: center;
+            margin-top: 30px;
+            font-size: 30px;
+            margin-top: -3px;
+        }
+         .xjbox{
+
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            font-style: italic;
+            background-color: whitesmoke;
+            margin-top: -40px;
+        }  
+ 
+        .box6{ 
+            height: 450px;
+            width: 100%;
+            background-color: whitesmoke;
+            display: flex;
+            justify-content: center;
+            gap: 20px;
+            border: 2px solid whitesmoke;
+        }
+        .xxbox{
+            height: 300px;
+            width: 300px;
+            display: flex;
+            flex-direction: column;
+            border: 2px solid whitesmoke;
+            
+        }
+        .yxbox{
+            height: 300px;
+            width: 300px;
+            display: flex;
+            justify-content: center;
+            border: 2px solid whitesmoke;
+            transform: 1s;
+        }
+        .yxbox:hover{
+            transform: scale(1.07);
+        }
+        .zxbox{
+            display: flex;
+             justify-content: space-around;
+            align-items: center;
+            margin-top: 30px;
+            font-size: 30px;
+            margin-top: -3px;
+        } 
+        .box7{
+            height: 450px;
+            width: 100%;
+            background-color: whitesmoke;
+            display: flex;
+            align-items: center;
+        }
+        .pg1{
+            height: 300px;
+            width: 400px;
+            margin-left: 70px;
+        }
+        .pg1 img{
+            height: 350px;
+            width: 600px;
+            border-radius: 20%;
+        }
+        .pg2{
+            height: 200px;
+            width: 550px;
+            font-size: 22px;
+            display: flex;
+            flex-direction: column;
+            margin: 230px;
+            color: rgb(17, 156, 203);
+            font-style: italic;
+        }
+        .box8{
+            height: 500px;
+            width: 1505px;
+            background-color: white;
+            display: flex;
+            justify-content: center;
+        }   
+        .gp1{
+            height: 200px;
+            width: 600px;   
+            display: flex;
+            flex-direction: column;
+            font-size: 20px;
+            margin-top: 120px;
+            margin-right: 100px;
+        }
+        .gp2{
+            height: 35px;
+            width: 230px;
+            background-color: lightgreen;
+            border: 2px solid black;
+            border-radius: 20px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            font-size: larger;
+            padding: 10px;
+            margin-top: 50px; 
+            margin-left: 120px;                                                                                                                                                      
+        }
+         .gp2:hover{
+            background-color: black;
+            color: white;
+        }
+        .gp3{
+            height: 300px;
+            width: 300px;
+        }
+        .gp3 img{
+            height: 450px;
+            width: 500px;
+            display: flex;
+            margin-top: 25px;   
+            border-radius: 20px; 
+        }
+        .box9{
+            height: 600px;
+            width: 100%;
+            background-color: rgb(236, 206, 247);
+        }
+        .content{
+            display: flex;
+            align-items: center;
+            flex-direction: column;
+        }
+        .content1{
+
+        }
+        
+        .content3{
+                display: flex;
+                flex-direction: column;
+                width: auto;
+                margin-left: 50px;
+        }
+        @media only screen and (max-width: 450px) {
+            .nn{
+                display: none;
+            }
+            .main {
+                width: 100%;
+            }
+
+            .bg {
+                display: flex;
+                flex-direction: column;
+                width: 450px;
+                height: 460px;
+            }
+
+            .box {
+                display: flex;
+                flex-direction: row;
+                width: 450px;
+            }
+
+            .box1 {
+                display: flex;
+                flex-direction: row;
+            }
+
+            .box2 {
+                display: flex;
+                flex-direction: row;
+            }
+
+            .box3 {
+                display: flex;
+                flex-direction: column;
+            }
+
+            .box4 {
+                height: auto;
+                width: 450px;
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                align-items: center;
+                margin-top: -210px;
+            }
+            .a1 {
+                width: auto;
+            }
+            .subbox {
+                display: flex;
+                flex-direction: column;
+                width: auto;
+                margin-top: 0px;
+                margin-left: 0px;
+            }
+             .subbox img {
+                height: 350px;
+                width: 350px;
+                margin-top: 20px;
+             }
+
+            .subbox1 {
+                display: flex;
+                flex-direction: column;
+                width: auto;
+                margin-left: 50px;
+            }
+
+            .a2 {
+                display: flex;
+                flex-direction: column;
+                width: auto;
+            }
+
+            .subbox2 {
+                display: flex;
+                flex-direction: column;
+                width: auto;
+                font-size: 25px;
+                margin-left: 30px;
+                margin-top: 40px;
+            }
+
+            .subbox3 {
+                display: flex;
+                flex-direction: column;
+                width: auto;
+                margin-left: 35px;
+                margin-top: -200px;
+            }
+            .jxbox{
+                width: 450px;
+                display: flex;
+                flex-direction: column;
+                margin-top: 21px;
+                font-size: small;
+            }
+            .box5{
+                height: auto;
+                width: 450px;
+                display: flex; 
+                flex-direction: column;
+                gap: 70px;
+                margin-top: -150px;
+            }
+            .lxbox{
+                height: auto;
+                width: 450px;
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+            }
+            .xjbox{
+                width: 450px;
+                display: flex;
+                flex-direction: column;
+                font-size: small;
+                padding-top: 30px;
+                padding-left: 5px;
+            }        
+            .box6{
+                height: auto;
+                width: 450px;
+                display: flex;
+                flex-direction: column;
+                gap: 70px;
+                margin-top: -80px;
+            } 
+            .xxbox{
+                height: auto;
+                width: 450px;
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+            }
+            .box7{
+                height: auto;
+                width: 450px;
+                display: flex;
+                flex-direction: column;
+                margin-top: -50px;
+            }
+            .pg1{
+                height: auto;
+                width: 450px;
+                margin-left: 0px;
+            }
+            .pg1 img{
+                height: 350px;
+                width: 450px;
+                border-radius: 20%;
+            }
+            .pg2{
+                height: 200px;
+                width: 450px;
+                margin: 0px;
+                font-size: large;
+            }
+            .box8{
+                height: 900px;
+                width: 1505px;
+                background-color: white;
+                display: flex;  
+                align-items: start;
+                flex-direction: column;
+                margin-top: -180px;
+            }   
+           .gp1{
+                height: auto;
+                width: 450px;   
+                display: flex;
+                align-items: start;
+                margin-top: 0px;
+                margin-left: 15px;
+                order: 2;
+            }
+            .gp2{
+                padding: 0px;
+                margin-top: 0px; 
+                margin-left: 75px;       
+                margin-top: 20px;                                                                                                                                               
+            }
+            .gp3{
+                height: auto;
+                width: 450px;
+                order: 1;
+            }
+            .gp3 img{
+                height: 300px;
+                width: 300px;
+                margin-top: 0px;   
+                border-radius: 0px; 
+                margin-left: 75px;
+            }
+
+    }
