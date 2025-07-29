@@ -273,7 +273,7 @@
             margin-top: 25px;   
             border-radius: 20px; 
         }
-        .box9{
+        /* .box9{
             height: 600px;
             width: 100%;
             background-color: rgb(236, 206, 247);
@@ -283,16 +283,14 @@
             align-items: center;
             flex-direction: column;
         }
-        .content1{
-
-        }
+ 
         
         .content3{
                 display: flex;
                 flex-direction: column;
                 width: auto;
                 margin-left: 50px;
-        }
+        } */
         @media only screen and (max-width: 450px) {
             .nn{
                 display: none;
@@ -395,6 +393,7 @@
                 width: 450px;
                 display: flex; 
                 flex-direction: column;
+                align-items: center;
                 gap: 70px;
                 margin-top: -150px;
             }
@@ -418,6 +417,7 @@
                 width: 450px;
                 display: flex;
                 flex-direction: column;
+                align-items: center;
                 gap: 70px;
                 margin-top: -80px;
             } 
@@ -486,6 +486,196 @@
                 margin-top: 0px;   
                 border-radius: 0px; 
                 margin-left: 75px;
+            }
+
+    }
+
+    @media only screen and (max-width: 768px) {
+            .main {
+                width: 768px;
+            }
+
+            .bg {
+                display: flex;
+                flex-direction: column;
+                width: 768px;
+                height: 635px;
+            }
+
+            .box {
+                display: flex;
+                flex-direction: row;
+                width: 768px;
+            }
+
+            .box1 {
+                display: flex;
+                flex-direction: row;
+            }
+
+            .box2 {
+                display: flex;
+                flex-direction: row;
+            }
+
+            .box3 {
+                display: flex;
+                flex-direction: column;
+            }
+
+            .box4 {
+                height: auto;
+                width: 768px;
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                align-items: center;
+                margin-top: -210px;
+            }
+            .a1 {
+                width: auto;
+            }
+            .subbox {
+                display: flex;
+                flex-direction: column;
+                width: auto;
+                margin-top: 0px;
+                margin-left: 0px;
+            }
+             .subbox img {
+                height: 350px;
+                width: 350px;
+                margin-top: 20px;
+             }
+
+            .subbox1 {
+                display: flex;
+                flex-direction: column;
+                width: auto;
+                margin-left: 50px;
+            }
+
+            .a2 {
+                display: flex;
+                flex-direction: column;
+                width: auto;
+            }
+
+            .subbox2 {
+                display: flex;
+                flex-direction: column;
+                width: auto;
+                font-size: 25px;
+                margin-left: 30px;
+                margin-top: 40px;
+            }
+
+            .subbox3 {
+                display: flex;
+                flex-direction: column;
+                width: auto;
+                margin-left: 35px;
+                margin-top: -200px;
+            }
+            .jxbox{
+                width: 768px;
+                display: flex;
+                flex-direction: column;
+                margin-top: 0px;
+                font-size: large;
+            }
+            .box5{
+                height: auto;
+                width: 768px;
+                display: flex; 
+                flex-wrap: wrap;
+                gap: 70px;
+                margin-top: 0px;
+            }
+            .lxbox{
+                height: auto;
+                display: flex;
+                flex-wrap: wrap;
+            }
+            .xjbox{
+                width: 768px;
+                display: flex;
+                flex-direction: column;
+                font-size: large;
+                padding-top: 30px;
+                padding-left: 5px;
+            }        
+            .box6{
+                height: auto;
+                width: 768px;
+                display: flex;
+                flex-wrap: wrap;
+                gap: 70px;
+                margin-top: 0px;
+            } 
+            .xxbox{
+                height: auto;
+                display: flex;
+                flex-wrap: wrap;
+            }
+            .box7{
+                height: auto;
+                width: 768px;
+                display: flex;
+                flex-direction: column;
+                margin-top: -10px;
+            }
+            .pg1{
+                height: auto;
+                width: 768px;
+                margin-left: 0px;
+            }
+            .pg1 img{
+                height: 350px;
+                width: 768px;
+                border-radius: 20%;
+            }
+            .pg2{
+                height: 200px;
+                width: 768px;
+                margin: 0px;
+                font-size: large;
+            }
+            .box8{
+                height: 900px;
+                width: 768px;
+                background-color: white;
+                display: flex;  
+                align-items: start;
+                flex-direction: column;
+                margin-top: -180px;
+            }   
+           .gp1{
+                height: auto;
+                width: 768px;   
+                display: flex;
+                align-items: start;
+                margin-top: 0px;
+                margin-left: 15px;
+                order: 2;
+            }
+            .gp2{
+                padding: 0px;
+                margin-top: 0px; 
+                margin-left: 250px;       
+                margin-top: 20px;                                                                                                                                               
+            }
+            .gp3{
+                height: auto;
+                width: 768px;
+                order: 1;
+            }
+            .gp3 img{
+                height: 300px;
+                width: 600px;
+                margin-top: 0px;   
+                border-radius: 0px; 
+                margin-left: 84px;
             }
 
     }
